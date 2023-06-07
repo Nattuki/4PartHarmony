@@ -1,11 +1,13 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "checkAlgorithm.h"
 
 const int CoordY[26] = {281,273,265,256,248,239,231,223,214,206,198,189,182,129,122,114,105,97,88,80,72,63,55,47,38,31};
 const int tone_abs[26] = {16,17,19,21,23,24,26,28,29,31,33,35,36,36,38,40,41,43,45,47,48,50,52,53,55,57};
 int tone[26][4];
 const float note_size = 25.0f;
+const float symbol_size = 1.5*note_size;
 const float accidental_size = 39.0f;
 const float staff_size = 350.0f;
 
@@ -14,12 +16,12 @@ const float staff_size = 350.0f;
 
 //==============================================================================
 
-class textComponent : public juce::Component
+class tone_textComponent : public juce::Component
 {
 public:
-    textComponent(int startTone) : toneToShow(startTone)
+    tone_textComponent(int startTone) : toneToShow(startTone)
     {}
-    ~textComponent(){}
+    ~tone_textComponent(){}
     
     void paint(juce::Graphics &g)override
     {
@@ -36,6 +38,31 @@ private:
     
 };
 
+class check_textComponent : public juce::Component
+{
+public:
+    check_textComponent(std::string startText) : textToShow(startText)
+    {}
+    ~check_textComponent(){}
+    
+    void paint(juce::Graphics &g)override
+    {
+        g.setFont(20.0f);
+        g.setOpacity(Opa);
+        g.drawText(textToShow, getLocalBounds(),juce::Justification::centredTop,true);
+    }
+    
+    void resized() override
+    {}
+    
+    std::string textToShow;
+    float Opa = 0.3f;
+
+private:
+    
+};
+
+
 class noteGraphComponent : public juce::Component
 {
 public:
@@ -44,36 +71,73 @@ public:
     
     void paint(juce::Graphics &g) override
     {
-        nature->drawWithin(g, juce::Rectangle<float>(note_size,note_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+        if(isChosen)
+        {
+            note_chosen->drawWithin(g, juce::Rectangle<float>(note_size,note_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+        }
+        else
+        {
+            if(isMarked)
+            {
+                note_marked->drawWithin(g, juce::Rectangle<float>(note_size,note_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+            }
+            else
+            {
+                note->drawWithin(g, juce::Rectangle<float>(note_size,note_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+            }
+        }
     }
+    
     
     void resized() override
     {}
     
+    bool isChosen = false;
+    bool isMarked = false;
     
 private:
-    std::unique_ptr<juce::Drawable>nature = juce::Drawable::createFromImageData(BinaryData::note_svg,BinaryData::note_svgSize);
+    std::unique_ptr<juce::Drawable>note = juce::Drawable::createFromImageData(BinaryData::note_svg,BinaryData::note_svgSize);
+    std::unique_ptr<juce::Drawable>note_chosen = juce::Drawable::createFromImageData(BinaryData::note_chosen_svg,BinaryData::note_chosen_svgSize);
+    std::unique_ptr<juce::Drawable>note_marked = juce::Drawable::createFromImageData(BinaryData::note_marked_svg,BinaryData::note_marked_svgSize);
 };
 
 
 
-class natureComponent : public juce::Component
+class naturalComponent : public juce::Component
 {
 public:
-    natureComponent(){}
-    ~natureComponent(){}
+    naturalComponent(){}
+    ~naturalComponent(){}
     
     void paint(juce::Graphics &g) override
     {
-        nature->drawWithin(g, juce::Rectangle<float>(accidental_size,accidental_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+        if(isChosen)
+        {
+            natural_chosen->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+        }
+        else
+        {
+            if(isMarked)
+            {
+                natural_marked->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+            }
+            else
+            {
+                natural->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+            }
+        }
     }
     
     void resized() override
     {}
     
+    bool isChosen = false;
+    bool isMarked = false;
     
 private:
-    std::unique_ptr<juce::Drawable>nature = juce::Drawable::createFromImageData(BinaryData::nature_svg,BinaryData::nature_svgSize);
+    std::unique_ptr<juce::Drawable>natural = juce::Drawable::createFromImageData(BinaryData::natural_svg,BinaryData::natural_svgSize);
+    std::unique_ptr<juce::Drawable>natural_chosen = juce::Drawable::createFromImageData(BinaryData::natural_chosen_svg,BinaryData::natural_chosen_svgSize);
+    std::unique_ptr<juce::Drawable>natural_marked = juce::Drawable::createFromImageData(BinaryData::natural_marked_svg,BinaryData::natural_marked_svgSize);
 };
 
 class flatComponent : public juce::Component
@@ -84,14 +148,33 @@ public:
     
     void paint(juce::Graphics &g) override
     {
-        nature->drawWithin(g, juce::Rectangle<float>(accidental_size,accidental_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+        if(isChosen)
+        {
+            flat_chosen->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+        }
+        else
+        {
+            if(isMarked)
+            {
+                flat_marked->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+            }
+            else
+            {
+                flat->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+            }
+        }
     }
     
     void resized() override
     {}
     
+    bool isChosen = false;
+    bool isMarked = false;
+    
 private:
-    std::unique_ptr<juce::Drawable>nature = juce::Drawable::createFromImageData(BinaryData::flat_svg,BinaryData::flat_svgSize);
+    std::unique_ptr<juce::Drawable>flat = juce::Drawable::createFromImageData(BinaryData::flat_svg,BinaryData::flat_svgSize);
+    std::unique_ptr<juce::Drawable>flat_chosen = juce::Drawable::createFromImageData(BinaryData::flat_chosen_svg,BinaryData::flat_chosen_svgSize);
+    std::unique_ptr<juce::Drawable>flat_marked = juce::Drawable::createFromImageData(BinaryData::flat_marked_svg,BinaryData::flat_marked_svgSize);
 };
 
 class sharpComponent : public juce::Component
@@ -102,15 +185,34 @@ public:
     
     void paint(juce::Graphics& g) override
     {
-        note->drawWithin(g, juce::Rectangle<float>(accidental_size,accidental_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+        if(isChosen)
+        {
+            sharp_chosen->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+        }
+        else
+        {
+            if(isMarked)
+            {
+                sharp_marked->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+            }
+            else
+            {
+                sharp->drawWithin(g, juce::Rectangle<float>(symbol_size,symbol_size), juce::RectanglePlacement::Flags::centred, 1.0f);
+            }
+        }
     }
     
     void resized() override
     {
         
     }
+    
+    bool isChosen = false;
+    bool isMarked = false;
 private:
-    std::unique_ptr<juce::Drawable>note = juce::Drawable::createFromImageData(BinaryData::sharp_svg, BinaryData::sharp_svgSize);
+    std::unique_ptr<juce::Drawable>sharp = juce::Drawable::createFromImageData(BinaryData::sharp_svg,BinaryData::sharp_svgSize);
+    std::unique_ptr<juce::Drawable>sharp_chosen = juce::Drawable::createFromImageData(BinaryData::sharp_chosen_svg,BinaryData::sharp_chosen_svgSize);
+    std::unique_ptr<juce::Drawable>sharp_marked = juce::Drawable::createFromImageData(BinaryData::sharp_marked_svg,BinaryData::sharp_marked_svgSize);
 };
 
 class accidentalComponent: public juce::Component
@@ -120,7 +222,7 @@ public:
     {
         addChildComponent(flat);
         addChildComponent(sharp);
-        addChildComponent(nature);
+        addChildComponent(natural);
     }
     ~accidentalComponent(){}
     
@@ -131,12 +233,12 @@ public:
     
     void resized() override
     {
-        nature.setBounds(0, 7,accidental_size,accidental_size);
+        natural.setBounds(0, 7,accidental_size,accidental_size);
         sharp.setBounds(-2, 7,accidental_size,accidental_size);
         flat.setBounds(-2,-2,accidental_size,accidental_size);
     }
     
-    natureComponent nature;
+    naturalComponent natural;
     sharpComponent sharp;
     flatComponent flat;
 };
@@ -172,6 +274,7 @@ public:
     
     void paint(juce::Graphics& g) override
     {
+        
     }
     
     void resized() override
@@ -179,6 +282,7 @@ public:
         note.setBounds(35,14,note_size,note_size);
         accidental.setBounds(10,0,accidental_size+10,accidental_size+10);
         line.setBounds(26,14,50,50);
+        line.toBack();
     }
     
     int accidentalFlag = 3;
@@ -201,7 +305,7 @@ public:
         for(int i=0;i<4;i++)
         {
             addAndMakeVisible(note[i]);
-            addAndMakeVisible(text[i]);
+            addAndMakeVisible(tone_text[i]);
         }
         
     }
@@ -219,7 +323,7 @@ public:
         for(int i=0;i<4;i++)
         {
             note[i].setBounds(185,CoordY[pos[i]],3*(int)note_size,2*accidental_size);
-            text[i].setBounds(30,320+i*25,50,50);
+            tone_text[i].setBounds(30+i*30,0,50,50);
         }
             
     }
@@ -227,7 +331,7 @@ public:
     int pos[4] = {20,15,9,5};
     
     noteComponent note[4];
-    textComponent text[4] = {textComponent(48),textComponent(40),textComponent(31),textComponent(24)};
+    tone_textComponent tone_text[4] = {tone_textComponent(48),tone_textComponent(40),tone_textComponent(31),tone_textComponent(24)};
     
 
 private:
@@ -241,7 +345,11 @@ class MainComponent  : public juce::Component
 {
 public:
     
-    MainComponent()
+    MainComponent() :  text_Consecutive5ths("Consecutive 5ths"),
+                       text_ConsecutiveOct("Consecutive Oct."),
+                       text_HiddenConsecutives("Hidden Consec."),
+                       text_Overlap("Overlap"),
+                       text_Parallel("Parallel")
     {
         for(int i=0;i<26;i++)
         {
@@ -254,8 +362,15 @@ public:
         
         setSize (900, 600);
         setWantsKeyboardFocus(true);
+        
         addAndMakeVisible(staff[0]);
         addAndMakeVisible(staff[1]);
+        addAndMakeVisible(text_Consecutive5ths);
+        addAndMakeVisible(text_ConsecutiveOct);
+        addAndMakeVisible(text_HiddenConsecutives);
+        addAndMakeVisible(text_Overlap);
+        addAndMakeVisible(text_Parallel);
+
     }
 
     ~MainComponent() override{}
@@ -268,15 +383,21 @@ public:
 
     void resized() override
     {
-        staff[0].setBounds(50,50,350,450);
-        staff[1].setBounds(500,50,350,450);
+        staff[0].setBounds(50,50,350,350);
+        staff[1].setBounds(500,50,350,350);
+        
+        text_Consecutive5ths.setBounds(50, 400, 150, 200);
+        text_ConsecutiveOct.setBounds(240, 400, 150, 200);
+        text_HiddenConsecutives.setBounds(425, 400, 150, 200);
+        text_Overlap.setBounds(585, 400, 125, 200);
+        text_Parallel.setBounds(700, 400, 150, 200);
     }
     
     void show_flat(int sf,int nt)
     {
         staff[sf].note[nt].accidentalFlag = 0;
         staff[sf].note[nt].accidental.sharp.setVisible(false);
-        staff[sf].note[nt].accidental.nature.setVisible(false);
+        staff[sf].note[nt].accidental.natural.setVisible(false);
         staff[sf].note[nt].accidental.flat.setVisible(true);
         return;
     }
@@ -286,14 +407,14 @@ public:
         staff[sf].note[nt].accidentalFlag = 1;
         staff[sf].note[nt].accidental.sharp.setVisible(false);
         staff[sf].note[nt].accidental.flat.setVisible(false);
-        staff[sf].note[nt].accidental.nature.setVisible(true);
+        staff[sf].note[nt].accidental.natural.setVisible(true);
         return;
     }
     
     void show_sharp(int sf,int nt)
     {
         staff[sf].note[nt].accidentalFlag = 2;
-        staff[sf].note[nt].accidental.nature.setVisible(false);
+        staff[sf].note[nt].accidental.natural.setVisible(false);
         staff[sf].note[nt].accidental.flat.setVisible(false);
         staff[sf].note[nt].accidental.sharp.setVisible(true);
         return;
@@ -302,7 +423,7 @@ public:
     void hide_any_symbol(int sf,int nt)
     {
         staff[sf].note[nt].accidentalFlag = 3;
-        staff[sf].note[nt].accidental.nature.setVisible(false);
+        staff[sf].note[nt].accidental.natural.setVisible(false);
         staff[sf].note[nt].accidental.flat.setVisible(false);
         staff[sf].note[nt].accidental.sharp.setVisible(false);
         return;
@@ -435,6 +556,7 @@ public:
     int sf,nt;
     bool keyPressed(const juce::KeyPress& key) override
     {
+        if(noteChosen<0) return true;
         //按条件处理
         if(key.getKeyCode()==key.rightKey)noteChosen = noteChosen%4+4;
         if(key.getKeyCode()==key.leftKey)noteChosen = noteChosen%4;
@@ -470,18 +592,51 @@ public:
         else staff[sf].note[nt].line.setVisible(false);
         
         //更新文本
-        staff[sf].text[nt].toneToShow = tone[staff[sf].pos[nt]][staff[sf].note[nt].accidentalFlag];
+        staff[sf].tone_text[nt].toneToShow = tone[staff[sf].pos[nt]][staff[sf].note[nt].accidentalFlag];
         
         //描画文本
-        staff[sf].text[nt].repaint(staff[sf].text[nt].getLocalBounds());
+        staff[sf].tone_text[nt].repaint(staff[sf].tone_text[nt].getLocalBounds());
         
+        //判定
+        int tone_now[2][4];
+        for(int i=0;i<2;i++)for(int j=0;j<4;j++)
+        {
+            tone_now[i][j] = tone[staff[i].pos[j]][staff[i].note[j].accidentalFlag];
+        }
         
+        //四部同向
+        text_Parallel.Opa = (isParallel(tone_now)? 1.0f : 0.3f);
+        text_Parallel.repaint();
+        
+        //声部交叉
+        text_Overlap.Opa = (isOverlap(tone_now)? 1.0f : 0.3f);
+        text_Overlap.repaint();
+        
+        //隐伏五八
+        text_HiddenConsecutives.Opa = (isHiddenConsec(tone_now)? 1.0f : 0.3f);
+        text_HiddenConsecutives.repaint();
+        
+        //平行五度
+        text_Consecutive5ths.Opa = (isConsecutive5ths(tone_now)? 1.0f : 0.3f);
+        text_Consecutive5ths.repaint();
+        
+        //平行八度
+        text_ConsecutiveOct.Opa = (isConsecutiveOct(tone_now)? 1.0f : 0.3f);
+        text_ConsecutiveOct.repaint();
+
         return true;
     }
     
-
+    
+    
 private:
     staffComponent staff[2];
+    check_textComponent text_Consecutive5ths;
+    check_textComponent text_ConsecutiveOct;
+    check_textComponent text_HiddenConsecutives;
+    check_textComponent text_Overlap;
+    check_textComponent text_Parallel;
+    
     
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

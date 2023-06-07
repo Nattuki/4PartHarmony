@@ -85,8 +85,160 @@ static const unsigned char temp_binary_data_0[] =
 
 const char* flat_svg = (const char*) temp_binary_data_0;
 
-//================== nature.svg ==================
+//================== flat_chosen.svg ==================
 static const unsigned char temp_binary_data_1[] =
+"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
+"<svg\n"
+"   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n"
+"   xmlns:cc=\"http://creativecommons.org/ns#\"\n"
+"   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"
+"   xmlns:svg=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n"
+"   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n"
+"   version=\"1.2\"\n"
+"   width=\"5.6537971\"\n"
+"   height=\"15.641341\"\n"
+"   viewBox=\"0 0 0.90800003 2.5119999\"\n"
+"   id=\"svg3019\"\n"
+"   inkscape:version=\"0.48.5 r10040\"\n"
+"   sodipodi:docname=\"b\xc3\xa9""carre-b\xc3\xa9mol.svg\">\n"
+"  <metadata\n"
+"     id=\"metadata3113\">\n"
+"    <rdf:RDF>\n"
+"      <cc:Work\n"
+"         rdf:about=\"\">\n"
+"        <dc:format>image/svg+xml</dc:format>\n"
+"        <dc:type\n"
+"           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n"
+"        <dc:title></dc:title>\n"
+"      </cc:Work>\n"
+"    </rdf:RDF>\n"
+"  </metadata>\n"
+"  <defs\n"
+"     id=\"defs3111\" />\n"
+"  <sodipodi:namedview\n"
+"     pagecolor=\"#ffffff\"\n"
+"     bordercolor=\"#666666\"\n"
+"     borderopacity=\"1\"\n"
+"     objecttolerance=\"10\"\n"
+"     gridtolerance=\"10\"\n"
+"     guidetolerance=\"10\"\n"
+"     inkscape:pageopacity=\"0\"\n"
+"     inkscape:pageshadow=\"2\"\n"
+"     inkscape:window-width=\"1920\"\n"
+"     inkscape:window-height=\"1018\"\n"
+"     id=\"namedview3109\"\n"
+"     showgrid=\"false\"\n"
+"     fit-margin-top=\"0\"\n"
+"     fit-margin-left=\"0\"\n"
+"     fit-margin-right=\"0\"\n"
+"     fit-margin-bottom=\"0\"\n"
+"     inkscape:zoom=\"5.6568542\"\n"
+"     inkscape:cx=\"55.801797\"\n"
+"     inkscape:cy=\"-33.087705\"\n"
+"     inkscape:window-x=\"-8\"\n"
+"     inkscape:window-y=\"-8\"\n"
+"     inkscape:window-maximized=\"1\"\n"
+"     inkscape:current-layer=\"svg3019\" />\n"
+"  <!-- Page: 1/1 -->\n"
+"  <text\n"
+"     transform=\"translate(-24.0348,-1)\"\n"
+"     font-size=\"2.2001\"\n"
+"     id=\"text3021\"\n"
+"     style=\"font-size:2.20009995px;text-anchor:start;fill:currentColor;font-family:Century Schoolbook L\">\n"
+"    <tspan\n"
+"       id=\"tspan3023\" />\n"
+"  </text>\n"
+"  <path\n"
+"     transform=\"matrix(0.004,0,0,-0.004,0.108,1.86)\"\n"
+"     d=\"m 27,41 -1,-66 v -11 c 0,-22 1,-44 4,-66 45,38 93,80 93,139 0,33 -14,67 -43,67 C 49,104 28,74 27,41 z m -42,-179 -12,595 c 8,5 18,8 27,8 9,0 19,-3 27,-8 L 20,112 c 25,21 58,34 91,34 52,0 89,-48 89,-102 0,-80 -86,-117 -147,-169 -15,-13 -24,-3"
+"8 -45,-38 -13,0 -23,11 -23,25 z\"\n"
+"     id=\"path3089\"\n"
+"     inkscape:connector-curvature=\"0\"\n"
+"     style=\"fill:rgb(255,116,0)\" />\n"
+"</svg>\n";
+
+const char* flat_chosen_svg = (const char*) temp_binary_data_1;
+
+//================== flat_marked.svg ==================
+static const unsigned char temp_binary_data_2[] =
+"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
+"<svg\n"
+"   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n"
+"   xmlns:cc=\"http://creativecommons.org/ns#\"\n"
+"   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"
+"   xmlns:svg=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n"
+"   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n"
+"   version=\"1.2\"\n"
+"   width=\"5.6537971\"\n"
+"   height=\"15.641341\"\n"
+"   viewBox=\"0 0 0.90800003 2.5119999\"\n"
+"   id=\"svg3019\"\n"
+"   inkscape:version=\"0.48.5 r10040\"\n"
+"   sodipodi:docname=\"b\xc3\xa9""carre-b\xc3\xa9mol.svg\">\n"
+"  <metadata\n"
+"     id=\"metadata3113\">\n"
+"    <rdf:RDF>\n"
+"      <cc:Work\n"
+"         rdf:about=\"\">\n"
+"        <dc:format>image/svg+xml</dc:format>\n"
+"        <dc:type\n"
+"           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n"
+"        <dc:title></dc:title>\n"
+"      </cc:Work>\n"
+"    </rdf:RDF>\n"
+"  </metadata>\n"
+"  <defs\n"
+"     id=\"defs3111\" />\n"
+"  <sodipodi:namedview\n"
+"     pagecolor=\"#ffffff\"\n"
+"     bordercolor=\"#666666\"\n"
+"     borderopacity=\"1\"\n"
+"     objecttolerance=\"10\"\n"
+"     gridtolerance=\"10\"\n"
+"     guidetolerance=\"10\"\n"
+"     inkscape:pageopacity=\"0\"\n"
+"     inkscape:pageshadow=\"2\"\n"
+"     inkscape:window-width=\"1920\"\n"
+"     inkscape:window-height=\"1018\"\n"
+"     id=\"namedview3109\"\n"
+"     showgrid=\"false\"\n"
+"     fit-margin-top=\"0\"\n"
+"     fit-margin-left=\"0\"\n"
+"     fit-margin-right=\"0\"\n"
+"     fit-margin-bottom=\"0\"\n"
+"     inkscape:zoom=\"5.6568542\"\n"
+"     inkscape:cx=\"55.801797\"\n"
+"     inkscape:cy=\"-33.087705\"\n"
+"     inkscape:window-x=\"-8\"\n"
+"     inkscape:window-y=\"-8\"\n"
+"     inkscape:window-maximized=\"1\"\n"
+"     inkscape:current-layer=\"svg3019\" />\n"
+"  <!-- Page: 1/1 -->\n"
+"  <text\n"
+"     transform=\"translate(-24.0348,-1)\"\n"
+"     font-size=\"2.2001\"\n"
+"     id=\"text3021\"\n"
+"     style=\"font-size:2.20009995px;text-anchor:start;fill:currentColor;font-family:Century Schoolbook L\">\n"
+"    <tspan\n"
+"       id=\"tspan3023\" />\n"
+"  </text>\n"
+"  <path\n"
+"     transform=\"matrix(0.004,0,0,-0.004,0.108,1.86)\"\n"
+"     d=\"m 27,41 -1,-66 v -11 c 0,-22 1,-44 4,-66 45,38 93,80 93,139 0,33 -14,67 -43,67 C 49,104 28,74 27,41 z m -42,-179 -12,595 c 8,5 18,8 27,8 9,0 19,-3 27,-8 L 20,112 c 25,21 58,34 91,34 52,0 89,-48 89,-102 0,-80 -86,-117 -147,-169 -15,-13 -24,-3"
+"8 -45,-38 -13,0 -23,11 -23,25 z\"\n"
+"     id=\"path3089\"\n"
+"     inkscape:connector-curvature=\"0\"\n"
+"     style=\"fill:rgb(255,0,0)\" />\n"
+"</svg>\n";
+
+const char* flat_marked_svg = (const char*) temp_binary_data_2;
+
+//================== natural.svg ==================
+static const unsigned char temp_binary_data_3[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
 "<svg\n"
 "   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n"
@@ -158,10 +310,160 @@ static const unsigned char temp_binary_data_1[] =
 "     style=\"fill:currentColor\" />\n"
 "</svg>\n";
 
-const char* nature_svg = (const char*) temp_binary_data_1;
+const char* natural_svg = (const char*) temp_binary_data_3;
+
+//================== natural_chosen.svg ==================
+static const unsigned char temp_binary_data_4[] =
+"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
+"<svg\n"
+"   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n"
+"   xmlns:cc=\"http://creativecommons.org/ns#\"\n"
+"   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"
+"   xmlns:svg=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n"
+"   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n"
+"   version=\"1.2\"\n"
+"   width=\"4.533\"\n"
+"   height=\"19.028639\"\n"
+"   viewBox=\"0 0 0.72799996 3.056\"\n"
+"   id=\"svg3019\"\n"
+"   inkscape:version=\"0.48.5 r10040\"\n"
+"   sodipodi:docname=\"b\xc3\xa9mol.svg\">\n"
+"  <metadata\n"
+"     id=\"metadata3113\">\n"
+"    <rdf:RDF>\n"
+"      <cc:Work\n"
+"         rdf:about=\"\">\n"
+"        <dc:format>image/svg+xml</dc:format>\n"
+"        <dc:type\n"
+"           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n"
+"        <dc:title></dc:title>\n"
+"      </cc:Work>\n"
+"    </rdf:RDF>\n"
+"  </metadata>\n"
+"  <defs\n"
+"     id=\"defs3111\" />\n"
+"  <sodipodi:namedview\n"
+"     pagecolor=\"#ffffff\"\n"
+"     bordercolor=\"#666666\"\n"
+"     borderopacity=\"1\"\n"
+"     objecttolerance=\"10\"\n"
+"     gridtolerance=\"10\"\n"
+"     guidetolerance=\"10\"\n"
+"     inkscape:pageopacity=\"0\"\n"
+"     inkscape:pageshadow=\"2\"\n"
+"     inkscape:window-width=\"1920\"\n"
+"     inkscape:window-height=\"1018\"\n"
+"     id=\"namedview3109\"\n"
+"     showgrid=\"false\"\n"
+"     fit-margin-top=\"0\"\n"
+"     fit-margin-left=\"0\"\n"
+"     fit-margin-right=\"0\"\n"
+"     fit-margin-bottom=\"0\"\n"
+"     inkscape:zoom=\"5.6568542\"\n"
+"     inkscape:cx=\"59.381731\"\n"
+"     inkscape:cy=\"-33.087715\"\n"
+"     inkscape:window-x=\"-8\"\n"
+"     inkscape:window-y=\"-8\"\n"
+"     inkscape:window-maximized=\"1\"\n"
+"     inkscape:current-layer=\"svg3019\" />\n"
+"  <!-- Page: 1/1 -->\n"
+"  <text\n"
+"     transform=\"translate(-27.229,-1.332)\"\n"
+"     font-size=\"2.2001\"\n"
+"     id=\"text3021\"\n"
+"     style=\"font-size:2.20009995px;text-anchor:start;fill:currentColor;font-family:Century Schoolbook L\">\n"
+"    <tspan\n"
+"       id=\"tspan3023\" />\n"
+"  </text>\n"
+"  <path\n"
+"     transform=\"matrix(0.004,0,0,-0.004,0.032,1.528)\"\n"
+"     d=\"m -8,375 c 8,4 17,7 26,7 9,0 17,-3 25,-7 l -3,-183 106,20 h 3 c 10,0 18,-7 18,-17 l 7,-570 c -8,-4 -16,-7 -25,-7 -9,0 -17,3 -25,7 l 3,183 -106,-20 h -3 c -10,0 -18,7 -18,17 z M 131,112 39,95 l -3,-207 92,17 z\"\n"
+"     id=\"path3045\"\n"
+"     inkscape:connector-curvature=\"0\"\n"
+"     style=\"fill:rgb(255,116,0)\" />\n"
+"</svg>\n";
+
+const char* natural_chosen_svg = (const char*) temp_binary_data_4;
+
+//================== natural_marked.svg ==================
+static const unsigned char temp_binary_data_5[] =
+"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
+"<svg\n"
+"   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n"
+"   xmlns:cc=\"http://creativecommons.org/ns#\"\n"
+"   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"
+"   xmlns:svg=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n"
+"   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n"
+"   version=\"1.2\"\n"
+"   width=\"4.533\"\n"
+"   height=\"19.028639\"\n"
+"   viewBox=\"0 0 0.72799996 3.056\"\n"
+"   id=\"svg3019\"\n"
+"   inkscape:version=\"0.48.5 r10040\"\n"
+"   sodipodi:docname=\"b\xc3\xa9mol.svg\">\n"
+"  <metadata\n"
+"     id=\"metadata3113\">\n"
+"    <rdf:RDF>\n"
+"      <cc:Work\n"
+"         rdf:about=\"\">\n"
+"        <dc:format>image/svg+xml</dc:format>\n"
+"        <dc:type\n"
+"           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n"
+"        <dc:title></dc:title>\n"
+"      </cc:Work>\n"
+"    </rdf:RDF>\n"
+"  </metadata>\n"
+"  <defs\n"
+"     id=\"defs3111\" />\n"
+"  <sodipodi:namedview\n"
+"     pagecolor=\"#ffffff\"\n"
+"     bordercolor=\"#666666\"\n"
+"     borderopacity=\"1\"\n"
+"     objecttolerance=\"10\"\n"
+"     gridtolerance=\"10\"\n"
+"     guidetolerance=\"10\"\n"
+"     inkscape:pageopacity=\"0\"\n"
+"     inkscape:pageshadow=\"2\"\n"
+"     inkscape:window-width=\"1920\"\n"
+"     inkscape:window-height=\"1018\"\n"
+"     id=\"namedview3109\"\n"
+"     showgrid=\"false\"\n"
+"     fit-margin-top=\"0\"\n"
+"     fit-margin-left=\"0\"\n"
+"     fit-margin-right=\"0\"\n"
+"     fit-margin-bottom=\"0\"\n"
+"     inkscape:zoom=\"5.6568542\"\n"
+"     inkscape:cx=\"59.381731\"\n"
+"     inkscape:cy=\"-33.087715\"\n"
+"     inkscape:window-x=\"-8\"\n"
+"     inkscape:window-y=\"-8\"\n"
+"     inkscape:window-maximized=\"1\"\n"
+"     inkscape:current-layer=\"svg3019\" />\n"
+"  <!-- Page: 1/1 -->\n"
+"  <text\n"
+"     transform=\"translate(-27.229,-1.332)\"\n"
+"     font-size=\"2.2001\"\n"
+"     id=\"text3021\"\n"
+"     style=\"font-size:2.20009995px;text-anchor:start;fill:currentColor;font-family:Century Schoolbook L\">\n"
+"    <tspan\n"
+"       id=\"tspan3023\" />\n"
+"  </text>\n"
+"  <path\n"
+"     transform=\"matrix(0.004,0,0,-0.004,0.032,1.528)\"\n"
+"     d=\"m -8,375 c 8,4 17,7 26,7 9,0 17,-3 25,-7 l -3,-183 106,20 h 3 c 10,0 18,-7 18,-17 l 7,-570 c -8,-4 -16,-7 -25,-7 -9,0 -17,3 -25,7 l 3,183 -106,-20 h -3 c -10,0 -18,7 -18,17 z M 131,112 39,95 l -3,-207 92,17 z\"\n"
+"     id=\"path3045\"\n"
+"     inkscape:connector-curvature=\"0\"\n"
+"     style=\"fill:rgb(255,0,0)\" />\n"
+"</svg>\n";
+
+const char* natural_marked_svg = (const char*) temp_binary_data_5;
 
 //================== sharp.svg ==================
-static const unsigned char temp_binary_data_2[] =
+static const unsigned char temp_binary_data_6[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
 "<svg\n"
 "   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n"
@@ -235,10 +537,164 @@ static const unsigned char temp_binary_data_2[] =
 "     style=\"fill:currentColor\" />\n"
 "</svg>\n";
 
-const char* sharp_svg = (const char*) temp_binary_data_2;
+const char* sharp_svg = (const char*) temp_binary_data_6;
+
+//================== sharp_chosen.svg ==================
+static const unsigned char temp_binary_data_7[] =
+"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
+"<svg\n"
+"   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n"
+"   xmlns:cc=\"http://creativecommons.org/ns#\"\n"
+"   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"
+"   xmlns:svg=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n"
+"   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n"
+"   version=\"1.2\"\n"
+"   width=\"6.8493137\"\n"
+"   height=\"18.679947\"\n"
+"   viewBox=\"0 0 1.1 3.0000001\"\n"
+"   id=\"svg3019\"\n"
+"   inkscape:version=\"0.48.5 r10040\"\n"
+"   sodipodi:docname=\"b\xc3\xa9""carre.svg\">\n"
+"  <metadata\n"
+"     id=\"metadata3113\">\n"
+"    <rdf:RDF>\n"
+"      <cc:Work\n"
+"         rdf:about=\"\">\n"
+"        <dc:format>image/svg+xml</dc:format>\n"
+"        <dc:type\n"
+"           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n"
+"        <dc:title></dc:title>\n"
+"      </cc:Work>\n"
+"    </rdf:RDF>\n"
+"  </metadata>\n"
+"  <defs\n"
+"     id=\"defs3111\" />\n"
+"  <sodipodi:namedview\n"
+"     pagecolor=\"#ffffff\"\n"
+"     bordercolor=\"#666666\"\n"
+"     borderopacity=\"1\"\n"
+"     objecttolerance=\"10\"\n"
+"     gridtolerance=\"10\"\n"
+"     guidetolerance=\"10\"\n"
+"     inkscape:pageopacity=\"0\"\n"
+"     inkscape:pageshadow=\"2\"\n"
+"     inkscape:window-width=\"1920\"\n"
+"     inkscape:window-height=\"1018\"\n"
+"     id=\"namedview3109\"\n"
+"     showgrid=\"false\"\n"
+"     fit-margin-top=\"0\"\n"
+"     fit-margin-left=\"0\"\n"
+"     fit-margin-right=\"0\"\n"
+"     fit-margin-bottom=\"0\"\n"
+"     inkscape:zoom=\"5.6568542\"\n"
+"     inkscape:cx=\"48.799323\"\n"
+"     inkscape:cy=\"-33.26207\"\n"
+"     inkscape:window-x=\"-8\"\n"
+"     inkscape:window-y=\"-8\"\n"
+"     inkscape:window-maximized=\"1\"\n"
+"     inkscape:current-layer=\"svg3019\" />\n"
+"  <!-- Page: 1/1 -->\n"
+"  <text\n"
+"     transform=\"translate(-31.7747,-1.36)\"\n"
+"     font-size=\"2.2001\"\n"
+"     id=\"text3021\"\n"
+"     style=\"font-size:2.20009995px;text-anchor:start;fill:currentColor;font-family:Century Schoolbook L\">\n"
+"    <tspan\n"
+"       id=\"tspan3023\" />\n"
+"  </text>\n"
+"  <path\n"
+"     transform=\"matrix(0.004,0,0,-0.004,0,1.5)\"\n"
+"     d=\"m 216,-312 c 0,-10 -8,-19 -18,-19 -10,0 -19,9 -19,19 v 145 l -83,-31 v -158 c 0,-10 -9,-19 -19,-19 -10,0 -18,9 -18,19 v 145 l -32,-12 c -2,-1 -5,-1 -7,-1 -11,0 -20,9 -20,20 v 60 c 0,8 5,16 13,19 l 46,16 V 51 L 27,40 C 25,39 22,39 20,39 9,39 "
+"0,48 0,59 v 60 c 0,8 5,15 13,18 l 46,17 v 158 c 0,10 8,19 18,19 10,0 19,-9 19,-19 V 167 l 83,31 v 158 c 0,10 9,19 19,19 10,0 18,-9 18,-19 V 211 l 32,12 c 2,1 5,1 7,1 11,0 20,-9 20,-20 v -60 c 0,-8 -5,-16 -13,-19 L 216,109 V -51 l 32,11 c 2,1 5,1 7,1 "
+"11,0 20,-9 20,-20 v -60 c 0,-8 -5,-15 -13,-18 l -46,-17 V -312 z M 96,65 V -95 l 83,30 V 95 z\"\n"
+"     id=\"path3037\"\n"
+"     inkscape:connector-curvature=\"0\"\n"
+"     style=\"fill:rgb(255,116,0)\" />\n"
+"</svg>\n";
+
+const char* sharp_chosen_svg = (const char*) temp_binary_data_7;
+
+//================== sharp_marked.svg ==================
+static const unsigned char temp_binary_data_8[] =
+"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
+"<svg\n"
+"   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n"
+"   xmlns:cc=\"http://creativecommons.org/ns#\"\n"
+"   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"
+"   xmlns:svg=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns=\"http://www.w3.org/2000/svg\"\n"
+"   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n"
+"   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n"
+"   version=\"1.2\"\n"
+"   width=\"6.8493137\"\n"
+"   height=\"18.679947\"\n"
+"   viewBox=\"0 0 1.1 3.0000001\"\n"
+"   id=\"svg3019\"\n"
+"   inkscape:version=\"0.48.5 r10040\"\n"
+"   sodipodi:docname=\"b\xc3\xa9""carre.svg\">\n"
+"  <metadata\n"
+"     id=\"metadata3113\">\n"
+"    <rdf:RDF>\n"
+"      <cc:Work\n"
+"         rdf:about=\"\">\n"
+"        <dc:format>image/svg+xml</dc:format>\n"
+"        <dc:type\n"
+"           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n"
+"        <dc:title></dc:title>\n"
+"      </cc:Work>\n"
+"    </rdf:RDF>\n"
+"  </metadata>\n"
+"  <defs\n"
+"     id=\"defs3111\" />\n"
+"  <sodipodi:namedview\n"
+"     pagecolor=\"#ffffff\"\n"
+"     bordercolor=\"#666666\"\n"
+"     borderopacity=\"1\"\n"
+"     objecttolerance=\"10\"\n"
+"     gridtolerance=\"10\"\n"
+"     guidetolerance=\"10\"\n"
+"     inkscape:pageopacity=\"0\"\n"
+"     inkscape:pageshadow=\"2\"\n"
+"     inkscape:window-width=\"1920\"\n"
+"     inkscape:window-height=\"1018\"\n"
+"     id=\"namedview3109\"\n"
+"     showgrid=\"false\"\n"
+"     fit-margin-top=\"0\"\n"
+"     fit-margin-left=\"0\"\n"
+"     fit-margin-right=\"0\"\n"
+"     fit-margin-bottom=\"0\"\n"
+"     inkscape:zoom=\"5.6568542\"\n"
+"     inkscape:cx=\"48.799323\"\n"
+"     inkscape:cy=\"-33.26207\"\n"
+"     inkscape:window-x=\"-8\"\n"
+"     inkscape:window-y=\"-8\"\n"
+"     inkscape:window-maximized=\"1\"\n"
+"     inkscape:current-layer=\"svg3019\" />\n"
+"  <!-- Page: 1/1 -->\n"
+"  <text\n"
+"     transform=\"translate(-31.7747,-1.36)\"\n"
+"     font-size=\"2.2001\"\n"
+"     id=\"text3021\"\n"
+"     style=\"font-size:2.20009995px;text-anchor:start;fill:currentColor;font-family:Century Schoolbook L\">\n"
+"    <tspan\n"
+"       id=\"tspan3023\" />\n"
+"  </text>\n"
+"  <path\n"
+"     transform=\"matrix(0.004,0,0,-0.004,0,1.5)\"\n"
+"     d=\"m 216,-312 c 0,-10 -8,-19 -18,-19 -10,0 -19,9 -19,19 v 145 l -83,-31 v -158 c 0,-10 -9,-19 -19,-19 -10,0 -18,9 -18,19 v 145 l -32,-12 c -2,-1 -5,-1 -7,-1 -11,0 -20,9 -20,20 v 60 c 0,8 5,16 13,19 l 46,16 V 51 L 27,40 C 25,39 22,39 20,39 9,39 "
+"0,48 0,59 v 60 c 0,8 5,15 13,18 l 46,17 v 158 c 0,10 8,19 18,19 10,0 19,-9 19,-19 V 167 l 83,31 v 158 c 0,10 9,19 19,19 10,0 18,-9 18,-19 V 211 l 32,12 c 2,1 5,1 7,1 11,0 20,-9 20,-20 v -60 c 0,-8 -5,-16 -13,-19 L 216,109 V -51 l 32,11 c 2,1 5,1 7,1 "
+"11,0 20,-9 20,-20 v -60 c 0,-8 -5,-15 -13,-18 l -46,-17 V -312 z M 96,65 V -95 l 83,30 V 95 z\"\n"
+"     id=\"path3037\"\n"
+"     inkscape:connector-curvature=\"0\"\n"
+"     style=\"fill:rgb(255,0,0)\" />\n"
+"</svg>\n";
+
+const char* sharp_marked_svg = (const char*) temp_binary_data_8;
 
 //================== Grand_staff.png ==================
-static const unsigned char temp_binary_data_3[] =
+static const unsigned char temp_binary_data_9[] =
 { 137,80,78,71,13,10,26,10,0,0,0,13,73,72,68,82,0,0,1,64,0,0,0,238,8,4,0,0,0,226,248,22,11,0,0,13,4,105,67,67,80,107,67,71,67,111,108,111,114,83,112,97,99,101,71,101,110,101,114,105,99,71,114,97,121,71,97,109,109,97,50,95,50,0,0,88,133,165,87,7,92,147,
 215,22,191,223,200,0,146,176,167,140,176,145,101,64,129,0,50,34,51,128,236,33,184,136,73,32,129,16,98,6,2,226,66,138,21,172,91,28,56,42,42,138,90,92,21,129,58,81,139,86,234,198,173,15,106,169,160,212,98,45,46,172,190,155,4,16,171,237,123,239,247,190,
 252,238,119,255,223,61,231,220,115,206,61,231,158,123,3,128,238,70,142,68,34,66,1,0,121,98,185,52,34,145,149,62,41,61,131,78,186,7,200,192,24,104,3,119,160,205,225,202,36,172,248,248,24,200,2,196,249,98,62,248,228,121,113,3,32,202,254,154,155,114,174,
@@ -399,10 +855,10 @@ static const unsigned char temp_binary_data_3[] =
 197,237,52,81,40,122,15,60,133,231,124,219,12,31,50,101,232,151,34,130,64,9,4,10,72,28,84,250,74,125,5,123,225,93,188,175,104,24,13,173,66,105,228,255,228,155,48,130,66,254,83,33,4,134,133,164,202,146,109,184,151,135,138,126,192,101,153,162,172,198,60,
 188,221,241,116,149,85,87,210,5,129,114,16,152,246,255,183,224,201,195,32,85,16,187,0,0,0,0,73,69,78,68,174,66,96,130,0,0 };
 
-const char* Grand_staff_png = (const char*) temp_binary_data_3;
+const char* Grand_staff_png = (const char*) temp_binary_data_9;
 
 //================== Grand_staff.svg ==================
-static const unsigned char temp_binary_data_4[] =
+static const unsigned char temp_binary_data_10[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n"
 "<!-- Created with Inkscape (http://www.inkscape.org/) -->\n"
 "\n"
@@ -671,10 +1127,82 @@ static const unsigned char temp_binary_data_4[] =
 "  </g>\n"
 "</svg>\n";
 
-const char* Grand_staff_svg = (const char*) temp_binary_data_4;
+const char* Grand_staff_svg = (const char*) temp_binary_data_10;
+
+//================== note_chosen.svg ==================
+static const unsigned char temp_binary_data_11[] =
+"<svg id=\"exportSVG\" visibility=\"visible\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" data-info=\"draw.ninja\" data-name=\"draw\" viewBox=\"0 0 460 309\" width=\"460\" height=\"309\" style=\"po"
+"sition: fixed; top: 0px; left: 0px;\"><defs id=\"defsExport\"><filter id=\"filter0\"><feGaussianBlur stdDeviation=\"0\"></feGaussianBlur></filter><pattern id=\"patternImage\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"1\" height=\"1\" da"
+"ta-x=\"0\" data-y=\"0\" data-width=\"1\" data-height=\"1\" data-multx=\"1\" data-multy=\"1\" patternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"patternImage\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\""
+"></pattern><pattern id=\"pattern0\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" data-x=\"0\" data-y=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix("
+"1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 0\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\"><path transform=\"matrix(1,0,0,1,0,0)\" d=\"M0 0 L5 0 L5 5 L0 5 L0 0 Z\"></path></pattern><pattern id=\"pattern1\" patter"
+"nUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" data-x=\"0\" data-y=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-tran"
+"sf=\"0\" data-source=\"Pattern 1\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\"><path transform=\"matrix(1,0,0,1,0,0)\" d=\"M0 5 L5 0 L10 5 L5 10 L0 5 Z\"></path></pattern><pattern id=\"pattern2\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\""
+" width=\"10\" height=\"10\" data-x=\"0\" data-y=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 2\" data-d"
+"raw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\"><path transform=\"matrix(1,0,0,1,0,0)\" d=\"M0 9 L5 1 L10 9 L0 9 Z\"></path></pattern><pattern id=\"pattern3\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" data-x=\"0\" data-"
+"y=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 3\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\">"
+"<path transform=\"matrix(1,0,0,1,0,0)\" d=\"M0 5 C0 2.25 2.25 0 5 0 C7.75 0 10 2.25 10 5 C10 7.75 7.75 10 5 10 C2.25 10 0 7.75 0 5 Z\"></path></pattern><pattern id=\"pattern4\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\""
+" data-x=\"0\" data-y=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 4\" data-draw=\"1\" fill=\"#B3B3B3\" "
+"fill-opacity=\"1\"><path transform=\"matrix(1,0,0,1,0,0)\" d=\"M0 5 L4 4 L5 0 L6 4 L10 5 L6 6 L5 10 L4 6 L0 5 Z\"></path></pattern><pattern id=\"pattern5\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" data-x=\"0\" data-y"
+"=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 5\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\"><"
+"path transform=\"matrix(1,0,0,1,0,0)\" d=\"M5 10 C-5 2.75 3 -1.75 5 1 C7 -1.75 15 2.75 5 10 Z\"></path></pattern><pattern id=\"pattern6\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" data-x=\"0\" data-y=\"0\" data-width="
+"\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 6\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\"><path transform=\"m"
+"atrix(1,0,0,1,0,0)\" d=\"M3 0 L7 0 L7 10 L3 10 L3 0 Z\"></path></pattern><pattern id=\"pattern7\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" data-x=\"0\" data-y=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1"
+"\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 7\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\"><path transform=\"matrix(1,0,0,1,0,0)\" d=\"M10 3 L10 7 L0 "
+"7 L0 3 L10 3 Z\"></path></pattern><pattern id=\"pattern8\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" data-x=\"0\" data-y=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" pat"
+"ternTransform=\"matrix(1,0,0,1,0,0)\" data-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 8\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\"><path transform=\"matrix(1,0,0,1,0,0)\" d=\"M0 10 L3 3 L10 0 L7 7 L0 10 Z\"></path></pattern><patt"
+"ern id=\"pattern9\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" data-x=\"0\" data-y=\"0\" data-width=\"10\" data-height=\"10\" data-multx=\"1\" data-multy=\"1\" stroke=\"none\" patternTransform=\"matrix(1,0,0,1,0,0)\" d"
+"ata-transs=\"0\" data-transf=\"0\" data-source=\"Pattern 9\" data-draw=\"1\" fill=\"#B3B3B3\" fill-opacity=\"1\"><path transform=\"matrix(1,0,0,1,0,0)\" d=\"M0 4 L10 4 L10 6 L0 6 L0 4 Z M4 10 L4 0 L6 0 L6 10 L4 10 Z\"></path></pattern><linearGradient"
+" id=\"linearSystem\" gradientUnits=\"objectBoundingBox\" x1=\"0%\" y1=\"50%\" x2=\"100%\" y2=\"50%\" spreadMethod=\"pad\"><stop offset=\"50%\" stop-color=\"#D0D0D0\" stop-opacity=\"1\"></stop><stop offset=\"100%\" stop-color=\"transparent\" stop-opac"
+"ity=\"1\"></stop></linearGradient><linearGradient id=\"linearSystem1\" gradientUnits=\"objectBoundingBox\" x1=\"0%\" y1=\"50%\" x2=\"100%\" y2=\"50%\" spreadMethod=\"pad\"><stop offset=\"30%\" stop-color=\"#D0D0D0\" stop-opacity=\"1\"></stop><stop of"
+"fset=\"100%\" stop-color=\"transparent\" stop-opacity=\"1\"></stop></linearGradient><linearGradient id=\"linearSystem2\" gradientUnits=\"objectBoundingBox\" x1=\"0%\" y1=\"50%\" x2=\"50%\" y2=\"50%\" spreadMethod=\"repeat\"><stop offset=\"30%\" stop-"
+"color=\"#D0D0D0\" stop-opacity=\"1\"></stop><stop offset=\"100%\" stop-color=\"transparent\" stop-opacity=\"1\"></stop></linearGradient><linearGradient id=\"linearSystem3\" gradientUnits=\"objectBoundingBox\" x1=\"0%\" y1=\"50%\" x2=\"50%\" y2=\"50%\""
+" spreadMethod=\"reflect\"><stop offset=\"30%\" stop-color=\"#D0D0D0\" stop-opacity=\"1\"></stop><stop offset=\"100%\" stop-color=\"transparent\" stop-opacity=\"1\"></stop></linearGradient><radialGradient id=\"radialSystem\" gradientUnits=\"objectBoun"
+"dingBox\" r=\"0.5\" cx=\"0.5\" fx=\"0.5\" cy=\"0.5\" fy=\"0.5\" spreadMethod=\"pad\"><stop offset=\"50%\" stop-color=\"#D0D0D0\" stop-opacity=\"1\"></stop><stop offset=\"100%\" stop-color=\"transparent\" stop-opacity=\"1\"></stop></radialGradient><pa"
+"ttern id=\"patternSystem\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"6\" height=\"8\"><path stroke=\"#D0D0D0\" stroke-width=\"5\" fill=\"none\" d=\"M0 0 L0 10\"></path></pattern><linearGradient id=\"linear0\" gradientUnits=\"objectBound"
+"ingBox\" x1=\"0%\" y1=\"50%\" x2=\"100%\" y2=\"50%\" spreadMethod=\"pad\"><stop offset=\"0%\" stop-color=\"#FF8000\" stop-opacity=\"1\"></stop><stop offset=\"100%\" stop-color=\"#FFFF00\" stop-opacity=\"1\"></stop></linearGradient><linearGradient id="
+"\"linear1\" gradientUnits=\"objectBoundingBox\" x1=\"0%\" y1=\"50%\" x2=\"100%\" y2=\"50%\" spreadMethod=\"pad\"><stop offset=\"0%\" stop-color=\"#FFFF00\" stop-opacity=\"1\"></stop><stop offset=\"100%\" stop-color=\"#FF8000\" stop-opacity=\"1\"></st"
+"op></linearGradient><linearGradient id=\"linearImport\" gradientUnits=\"objectBoundingBox\" x1=\"0%\" y1=\"50%\" x2=\"100%\" y2=\"50%\" spreadMethod=\"pad\"><stop offset=\"0%\" stop-color=\"#FFFFFF\" stop-opacity=\"0.1\"></stop><stop offset=\"100%\" "
+"stop-color=\"#000000\" stop-opacity=\"0.1\"></stop></linearGradient><radialGradient id=\"radial0\" gradientUnits=\"objectBoundingBox\" r=\"0.5\" cx=\"0.5\" fx=\"0.5\" cy=\"0.5\" fy=\"0.5\" spreadMethod=\"pad\"><stop offset=\"0%\" stop-color=\"#FF8000"
+"\" stop-opacity=\"1\"></stop><stop offset=\"100%\" stop-color=\"#FFFF00\" stop-opacity=\"1\"></stop></radialGradient><radialGradient id=\"radial1\" gradientUnits=\"objectBoundingBox\" r=\"0.5\" cx=\"0.5\" fx=\"0.5\" cy=\"0.5\" fy=\"0.5\" spreadMethod"
+"=\"pad\"><stop offset=\"0%\" stop-color=\"#FFFF00\" stop-opacity=\"1\"></stop><stop offset=\"100%\" stop-color=\"#FF8000\" stop-opacity=\"1\"></stop></radialGradient><radialGradient id=\"radialImport\" gradientUnits=\"objectBoundingBox\" r=\"0.5\" cx"
+"=\"0.5\" fx=\"0.5\" cy=\"0.5\" fy=\"0.5\" spreadMethod=\"pad\"><stop offset=\"0%\" stop-color=\"#FFFFFF\" stop-opacity=\"0.1\"></stop><stop offset=\"100%\" stop-color=\"#000000\" stop-opacity=\"0.1\"></stop></radialGradient></defs><rect id=\"pageExpo"
+"rt\" x=\"0\" y=\"0\" width=\"460\" height=\"309\" fill=\"none\" fill-opacity=\"0\" stroke=\"none\" stroke-width=\"0\"></rect><g id=\"objectsExport\" visibility=\"visible\"><path id=\"path0\" d=\"M152.157 298.328 C85.319 282.47 37.61 248.231 16.87 208"
+".089 C7.117 189.931 1.34 170.133 0.04 149.523 C0.02 149.21 0.022 148.931 0.017 148.634 C-0.375 125.614 5.795 103.872 24.669 79.32 C41.977 56.68 68.475 37.285 102.737 22.388 C138.963 6.573 181.902 -1.264 228.173 0.166 C237.584 0.457 246.862 1.118 255."
+"977 2.126 C265.884 3.138 275.597 4.566 285.075 6.381 C303.492 9.409 321.026 13.995 337.384 19.933 C353.469 25.539 368.227 32.268 382.739 40.958 C395.573 48.644 405.579 56.192 415.4 65.322 C420.321 70.084 424.894 75.043 429.088 80.179 C432.396 84.363 "
+"435.471 88.632 438.298 92.975 C441.437 98.026 444.208 102.869 446.793 108.353 C455.259 126.31 459.713 146.693 460.174 163.941 C460.186 198.107 442.833 228.832 413.813 253.069 C392.427 271.703 366.811 285.613 333.646 296.012 C308.937 303.76 283.18 307"
+".943 257.601 308.684 C249.13 309.113 242.59 308.803 233.976 308.721 C204.949 307.785 177.439 304.194 152.157 298.328 Z M296 255 C300.439 251.563 303.498 248.393 308.172 242.88 C316.263 233.336 321.631 223.806 324.988 211.245 C325.366 210.015 325.707 "
+"208.779 326.01 207.537 C326.744 204.636 327.273 201.716 327.613 198.788 C328.303 189.234 327.772 177.99 324.918 167.156 C324.192 164.012 323.499 161.072 322.819 158.267 C319.9 145.251 317.08 135.289 312.299 121.811 C312.016 121.052 311.652 119.912 31"
+"1.36 119.153 C301.262 92.878 290.815 74.939 276.044 61.581 C255.908 42.567 226.25 31.935 194.593 41.643 C181.916 45.531 171.354 52.116 164.352 59.254 C160.273 63.338 156.296 68.404 153.208 73.338 C145.377 85.936 141.607 95.484 140.349 108.906 C140.07"
+"3 113.64 139.76 119.393 140.349 124.906 C141.325 131.083 141.918 136.259 143.174 142.216 C146.677 160.191 151.654 176.597 155.613 188.913 C155.658 189.053 155.697 189.196 155.739 189.337 C157.63 195.657 159.907 201.677 162.516 207.375 C164.66 212.297"
+" 167.315 217.92 169.879 222.349 C171.602 225.459 173.417 228.488 175.291 231.349 C178.507 236.293 181.564 239.736 185.038 243.677 C190.534 249.719 196.307 254.605 202.279 258.473 C211.651 264.191 221.329 267.647 231.045 269.317 C248.87 272.994 268.77"
+"3 269.855 279.266 264.878 C286.222 261.579 289.953 259.682 296 255 Z \" data-centerx=\"230.09\" data-centery=\"154.45\" stroke=\"none\" stroke-width=\"0\" data-sw=\"0\" stroke-opacity=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"#f"
+"f7400\" fill-opacity=\"1\" fill-rule=\"evenodd\" filter=\"none\" visibility=\"visible\" stroke-dasharray=\"none\" marker-start=\"none\" marker-end=\"none\" data-name=\"curve\" data-title=\"curve\" deg=\"0\" data-grad=\"0\" data-group=\"0\" data-edit="
+"\"1\"></path></g><g id=\"settings\" visibility=\"hidden\" data-dn0=\"primalDraw\" data-dn1=\"#FAFAFA\" data-dn2=\"#D2D2D2\" data-dn3=\"18\" data-dn4=\"#000000\" data-dn5=\"#FF8040\" data-dn6=\"1\" data-dn7=\"1\" data-dn8=\"2\" data-dn9=\"round\" data"
+"-dn10=\"round\" data-dn11=\"none\" data-dn12=\"none\" data-dn13=\"none\" data-dn14=\"evenodd\" data-dn15=\"10\" data-dn16=\"1\" data-dn17=\"460\" data-dn18=\"309\" data-dn19=\"10\" data-dn20=\"0\" data-dn21=\"1\" data-dn22=\"1\" data-dn23=\"1\" data-"
+"dn24=\"path0\" data-dn25=\"2\" data-dn26=\"url(#linear0)\" data-dn27=\"url(#linear1)\" data-dn28=\"url(#radial0)\" data-dn29=\"url(#radial1)\" data-dn30=\"#FF8000\" data-dn31=\"#FFFF00\" data-dn32=\"#000000\" data-dn33=\"1\" data-dn34=\"1\" data-dn35"
+"=\"10\" data-dn36=\"\" data-dn37=\"0\" data-dn38=\"63\"></g></svg>";
+
+const char* note_chosen_svg = (const char*) temp_binary_data_11;
+
+//================== note_marked.svg ==================
+static const unsigned char temp_binary_data_12[] =
+"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><!-- Generator: Gravit.io --><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" style=\"isolation:isolate\" viewBox=\"584 171 460.17404 308.906071\" width"
+"=\"460.17404pt\" height=\"308.906071pt\"><path d=\" M 736.157 469.328 C 669.319 453.47 621.61 419.231 600.87 379.089 C 591.117 360.931 585.34 341.133 584.04 320.523 C 584.02 320.21 584.022 319.931 584.017 319.634 C 583.625 296.614 589.795 274.872 608"
+".669 250.32 C 625.977 227.68 652.475 208.285 686.737 193.388 C 722.963 177.573 765.902 169.736 812.173 171.166 C 821.584 171.457 830.862 172.118 839.977 173.126 C 849.884 174.138 859.597 175.566 869.075 177.381 C 887.492 180.409 905.026 184.995 921.3"
+"84 190.933 C 937.469 196.539 952.227 203.268 966.739 211.958 C 979.573 219.644 989.579 227.192 999.4 236.322 C 1004.321 241.084 1008.894 246.043 1013.088 251.179 C 1016.396 255.363 1019.471 259.632 1022.298 263.975 C 1025.437 269.026 1028.208 273.869"
+" 1030.793 279.353 C 1039.259 297.31 1043.713 317.693 1044.174 334.941 C 1044.186 369.107 1026.833 399.832 997.813 424.069 C 976.427 442.703 950.811 456.613 917.646 467.012 C 892.937 474.76 867.18 478.943 841.601 479.684 C 833.13 480.113 826.59 479.80"
+"3 817.976 479.721 C 788.949 478.785 761.439 475.194 736.157 469.328 Z  M 880 426 C 884.439 422.563 887.498 419.393 892.172 413.88 C 900.263 404.336 905.631 394.806 908.988 382.245 C 909.366 381.015 909.707 379.779 910.01 378.537 C 910.744 375.636 911"
+".273 372.716 911.613 369.788 C 912.303 360.234 911.772 348.99 908.918 338.156 C 908.192 335.012 907.499 332.072 906.819 329.267 C 903.9 316.251 901.08 306.289 896.299 292.811 C 896.016 292.052 895.652 290.912 895.36 290.153 C 885.262 263.878 874.815 "
+"245.939 860.044 232.581 C 839.908 213.567 810.25 202.935 778.593 212.643 C 765.916 216.531 755.354 223.116 748.352 230.254 C 744.273 234.338 740.296 239.404 737.208 244.338 C 729.377 256.936 725.607 266.484 724.349 279.906 C 724.073 284.64 723.76 290"
+".393 724.349 295.906 C 725.325 302.083 725.918 307.259 727.174 313.216 C 730.677 331.191 735.654 347.597 739.613 359.913 C 739.658 360.053 739.697 360.196 739.739 360.337 C 741.63 366.657 743.907 372.677 746.516 378.375 C 748.66 383.297 751.315 388.9"
+"2 753.879 393.349 C 755.602 396.459 757.417 399.488 759.291 402.349 C 762.507 407.293 765.564 410.736 769.038 414.677 C 774.534 420.719 780.307 425.605 786.279 429.473 C 795.651 435.191 805.329 438.647 815.045 440.317 C 832.87 443.994 852.773 440.855"
+" 863.266 435.878 C 870.222 432.579 873.953 430.682 880 426 Z \" fill-rule=\"evenodd\" fill=\"rgb(255,0,0)\"/></svg>";
+
+const char* note_marked_svg = (const char*) temp_binary_data_12;
 
 //================== note.svg ==================
-static const unsigned char temp_binary_data_5[] =
+static const unsigned char temp_binary_data_13[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><!-- Generator: Gravit.io --><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" style=\"isolation:isolate\" viewBox=\"584 171 460.17404 308.906071\" width"
 "=\"460.17404pt\" height=\"308.906071pt\"><path d=\" M 736.157 469.328 C 669.319 453.47 621.61 419.231 600.87 379.089 C 591.117 360.931 585.34 341.133 584.04 320.523 C 584.02 320.21 584.022 319.931 584.017 319.634 C 583.625 296.614 589.795 274.872 608"
 ".669 250.32 C 625.977 227.68 652.475 208.285 686.737 193.388 C 722.963 177.573 765.902 169.736 812.173 171.166 C 821.584 171.457 830.862 172.118 839.977 173.126 C 849.884 174.138 859.597 175.566 869.075 177.381 C 887.492 180.409 905.026 184.995 921.3"
@@ -687,10 +1215,10 @@ static const unsigned char temp_binary_data_5[] =
 "2 753.879 393.349 C 755.602 396.459 757.417 399.488 759.291 402.349 C 762.507 407.293 765.564 410.736 769.038 414.677 C 774.534 420.719 780.307 425.605 786.279 429.473 C 795.651 435.191 805.329 438.647 815.045 440.317 C 832.87 443.994 852.773 440.855"
 " 863.266 435.878 C 870.222 432.579 873.953 430.682 880 426 Z \" fill-rule=\"evenodd\" fill=\"rgb(0,0,0)\"/></svg>";
 
-const char* note_svg = (const char*) temp_binary_data_5;
+const char* note_svg = (const char*) temp_binary_data_13;
 
 //================== note.png ==================
-static const unsigned char temp_binary_data_6[] =
+static const unsigned char temp_binary_data_14[] =
 { 137,80,78,71,13,10,26,10,0,0,0,13,73,72,68,82,0,0,0,100,0,0,0,100,8,6,0,0,0,112,226,149,84,0,0,1,129,105,67,67,80,115,82,71,66,32,73,69,67,54,49,57,54,54,45,50,46,49,0,0,40,145,117,145,207,43,68,81,20,199,63,198,136,24,141,162,40,210,36,172,102,196,40,
 97,97,49,242,171,176,152,25,101,176,153,121,230,135,154,25,175,247,102,210,100,171,108,21,37,54,126,45,248,11,216,42,107,165,136,148,108,89,19,27,166,231,188,121,83,35,153,115,59,247,124,238,247,222,115,186,247,92,176,5,147,74,74,183,247,66,42,157,209,
 252,19,62,215,124,104,193,85,253,130,157,86,154,25,166,61,172,232,234,76,96,60,72,89,251,188,167,194,140,183,30,179,86,249,115,255,90,221,114,84,87,160,162,70,120,68,81,181,140,240,164,240,244,90,70,53,121,71,184,73,73,132,151,133,207,132,221,154,92,
@@ -717,7 +1245,7 @@ static const unsigned char temp_binary_data_6[] =
 128,175,242,177,55,255,111,78,185,141,104,210,102,72,41,51,128,91,8,6,117,17,62,124,214,10,92,145,143,86,46,94,139,156,6,78,16,110,242,39,242,241,35,255,155,96,89,148,33,38,237,134,84,67,150,176,88,107,34,156,124,171,242,86,199,113,28,199,113,28,199,
 113,28,199,113,28,199,113,28,199,113,28,199,113,28,199,113,28,199,113,156,106,184,0,128,175,236,183,238,169,61,220,0,0,0,0,73,69,78,68,174,66,96,130,0,0 };
 
-const char* note_png = (const char*) temp_binary_data_6;
+const char* note_png = (const char*) temp_binary_data_14;
 
 
 const char* getNamedResource (const char* resourceNameUTF8, int& numBytes);
@@ -732,10 +1260,18 @@ const char* getNamedResource (const char* resourceNameUTF8, int& numBytes)
     switch (hash)
     {
         case 0x60ee889e:  numBytes = 2318; return flat_svg;
-        case 0x2d02becc:  numBytes = 2241; return nature_svg;
+        case 0x68d7889d:  numBytes = 2320; return flat_chosen_svg;
+        case 0x75bbac57:  numBytes = 2318; return flat_marked_svg;
+        case 0x6d2fc94e:  numBytes = 2241; return natural_svg;
+        case 0xf77d21ed:  numBytes = 2243; return natural_chosen_svg;
+        case 0x046145a7:  numBytes = 2241; return natural_marked_svg;
         case 0xa254388f:  numBytes = 2613; return sharp_svg;
+        case 0x747a378c:  numBytes = 2615; return sharp_chosen_svg;
+        case 0x815e5b46:  numBytes = 2613; return sharp_marked_svg;
         case 0x6b0ac8b7:  numBytes = 11306; return Grand_staff_png;
         case 0x6b0ad4f2:  numBytes = 21933; return Grand_staff_svg;
+        case 0x1d9d0284:  numBytes = 11597; return note_chosen_svg;
+        case 0x2a81263e:  numBytes = 2591; return note_marked_svg;
         case 0x5e435497:  numBytes = 2589; return note_svg;
         case 0x5e43485c:  numBytes = 1759; return note_png;
         default: break;
@@ -748,10 +1284,18 @@ const char* getNamedResource (const char* resourceNameUTF8, int& numBytes)
 const char* namedResourceList[] =
 {
     "flat_svg",
-    "nature_svg",
+    "flat_chosen_svg",
+    "flat_marked_svg",
+    "natural_svg",
+    "natural_chosen_svg",
+    "natural_marked_svg",
     "sharp_svg",
+    "sharp_chosen_svg",
+    "sharp_marked_svg",
     "Grand_staff_png",
     "Grand_staff_svg",
+    "note_chosen_svg",
+    "note_marked_svg",
     "note_svg",
     "note_png"
 };
@@ -759,10 +1303,18 @@ const char* namedResourceList[] =
 const char* originalFilenames[] =
 {
     "flat.svg",
-    "nature.svg",
+    "flat_chosen.svg",
+    "flat_marked.svg",
+    "natural.svg",
+    "natural_chosen.svg",
+    "natural_marked.svg",
     "sharp.svg",
+    "sharp_chosen.svg",
+    "sharp_marked.svg",
     "Grand_staff.png",
     "Grand_staff.svg",
+    "note_chosen.svg",
+    "note_marked.svg",
     "note.svg",
     "note.png"
 };

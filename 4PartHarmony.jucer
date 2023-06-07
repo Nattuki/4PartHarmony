@@ -5,13 +5,27 @@
   <MAINGROUP id="XsfgNQ" name="4PartHarmony">
     <GROUP id="{A457C863-DD47-4AFB-42E7-931C70A3EF07}" name="Source">
       <FILE id="z5WDVW" name="flat.svg" compile="0" resource="1" file="../../../Desktop/img/flat.svg"/>
-      <FILE id="NwoHkf" name="nature.svg" compile="0" resource="1" file="../../../Desktop/img/nature.svg"/>
+      <FILE id="OiMZJU" name="flat_chosen.svg" compile="0" resource="1" file="../../../Desktop/img/flat_chosen.svg"/>
+      <FILE id="kp3bof" name="flat_marked.svg" compile="0" resource="1" file="../../../Desktop/img/flat_marked.svg"/>
+      <FILE id="HW6csi" name="natural.svg" compile="0" resource="1" file="../../../Desktop/img/natural.svg"/>
+      <FILE id="XC4DD2" name="natural_chosen.svg" compile="0" resource="1"
+            file="../../../Desktop/img/natural_chosen.svg"/>
+      <FILE id="Xlb6dC" name="natural_marked.svg" compile="0" resource="1"
+            file="../../../Desktop/img/natural_marked.svg"/>
       <FILE id="QcdTi8" name="sharp.svg" compile="0" resource="1" file="../../../Desktop/img/sharp.svg"/>
+      <FILE id="LL08Tr" name="sharp_chosen.svg" compile="0" resource="1"
+            file="../../../Desktop/img/sharp_chosen.svg"/>
+      <FILE id="r5NE9S" name="sharp_marked.svg" compile="0" resource="1"
+            file="../../../Desktop/img/sharp_marked.svg"/>
       <FILE id="WACHjP" name="Grand_staff.png" compile="0" resource="1" file="../../../Desktop/img/Grand_staff.png"/>
-      <FILE id="MOSnpq" name="Grand_staff.svg" compile="0" resource="1" file="../../../Downloads/Grand_staff.svg"/>
+      <FILE id="pEPb03" name="Grand_staff.svg" compile="0" resource="1" file="../../../Desktop/img/Grand_staff.svg"/>
+      <FILE id="GGyT8j" name="note_chosen.svg" compile="0" resource="1" file="../../../Desktop/img/note_chosen.svg"/>
+      <FILE id="NaBsGn" name="note_marked.svg" compile="0" resource="1" file="../../../Desktop/img/note_marked.svg"/>
       <FILE id="OlVILI" name="note.svg" compile="0" resource="1" file="../../../Desktop/img/note.svg"/>
       <FILE id="aDpw2p" name="note.png" compile="0" resource="1" file="../../../Desktop/img/note.png"/>
       <FILE id="reZjpJ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="pW5oo6" name="checkAlgorithm.h" compile="0" resource="0"
+            file="Source/checkAlgorithm.h"/>
       <FILE id="hqL6xX" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
     </GROUP>
   </MAINGROUP>
