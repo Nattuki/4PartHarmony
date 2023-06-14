@@ -34,24 +34,27 @@ void get_tones_now()
     
     if(tonality==0)return;
     
-    for(int i=0;i<abs(tonality);i++)
-    {
-        for(int j=0;j<4;j++)
-        {
-            if(tone_to_change_of_all[i][j]==-1)continue;
-            tone_to_change.push_back(tone_to_change_of_all[i][j]);
-        }
-    }
-    
     if(tonality>0)
     {
-        for(auto v : tone_to_change)tone[v][3]++;
+        for(int i=0;i<tonality;i++)
+        {
+            for(int j=0;j<4;j++)
+            {
+                if(tone_to_change_of_all[i][j]==-1)continue;
+                tone_to_change.push_back(tone_to_change_of_all[order_in_sharp[i]][j]);
+            }
+        }
     }
     else if(tonality<0)
     {
-        for(auto v : tone_to_change)tone[v][3]--;
-    }
-    return;
+        for(int i=0;i<abs(tonality);i++)
+        {
+            for(int j=0;j<4;j++)
+            {
+                if(tone_to_change_of_all[i][j]==-1)continue;
+                tone_to_change.push_back(tone_to_change_of_all[order_in_flat[i]][j]);
+            }
+        }
 }
 
 
