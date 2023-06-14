@@ -56,6 +56,16 @@ void get_tones_now()
             }
         }
     }
+    
+    if(tonality>0)
+    {
+        for(auto v : tone_to_change)tone[v][3]++;
+    }
+    else if(tonality<0)
+    {
+        for(auto v : tone_to_change)tone[v][3]--;
+    }
+    return;
 }
 
 
