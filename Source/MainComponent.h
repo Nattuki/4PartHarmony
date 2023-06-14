@@ -9,7 +9,7 @@ const int CoordY[26] = {281,273,265,256,248,239,231,223,214,206,198,189,182,129,
 const int tone_in_C[26] = {16,17,19,21,23,24,26,28,29,31,33,35,36,36,38,40,41,43,45,47,48,50,52,53,55,57};
 int tone_to_change_of_all[7][4] = {{1,8,16,23},{5,12,13,20},{2,9,17,24},{6,14,21,-1},{3,10,18,25},{0,7,15,22},{4,11,19,-1}};
 const int order_in_sharp[7] = {0,1,2,3,4,5,6};
-const int order_in_flat[7] = {1,5,4,3,2,1,0};
+const int order_in_flat[7] = {6,5,4,3,2,1,0};
 const int sharp_signature_distance[7] = {0,26,-5,17,43,9,33};
 const int flat_signature_distance[7] = {0,-26,7,-17,17,-9,24};
 int tone[26][4];
