@@ -55,6 +55,7 @@ void get_tones_now()
                 tone_to_change.push_back(tone_to_change_of_all[order_in_flat[i]][j]);
             }
         }
+    }
 }
 
 
