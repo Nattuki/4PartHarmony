@@ -1,6 +1,6 @@
 # 夏月の四声体
-for mac: Harmony for mac.zip<br><br>
-for Windows: Harmony for Windows.zip
+Mac: Harmony for mac.zip<br><br>
+Windows: Harmony for Windows.zip
 <br><br>
 <img width="899" alt="screenshot" src="https://github.com/Nattuki/4PartHarmony/assets/107347356/d2120f6c-4337-46d6-b445-204c94212ade">
 
