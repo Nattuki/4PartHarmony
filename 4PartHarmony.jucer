@@ -23,7 +23,9 @@
       <FILE id="NaBsGn" name="note_marked.svg" compile="0" resource="1" file="../../../Desktop/img/note_marked.svg"/>
       <FILE id="OlVILI" name="note.svg" compile="0" resource="1" file="../../../Desktop/img/note.svg"/>
       <FILE id="aDpw2p" name="note.png" compile="0" resource="1" file="../../../Desktop/img/note.png"/>
+      <FILE id="MRDlVz" name="icon.png" compile="0" resource="1" file="../../../Desktop/img/icon.png"/>
       <FILE id="reZjpJ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="OLQ65n" name="Note.h" compile="0" resource="0" file="Note.h"/>
       <FILE id="pW5oo6" name="checkAlgorithm.h" compile="0" resource="0"
             file="Source/checkAlgorithm.h"/>
       <FILE id="hqL6xX" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
@@ -31,17 +33,18 @@
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX">
+    <XCODE_MAC targetFolder="Builds/MacOSX" bigIcon="MRDlVz" smallIcon="MRDlVz">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" targetName="4PartHarmony"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="4PartHarmony"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Natsuki's 4PartHarmony"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
         <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
         <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
         <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
@@ -51,5 +54,6 @@
     <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
 </JUCERPROJECT>

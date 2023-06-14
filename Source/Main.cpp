@@ -59,7 +59,7 @@ public:
     {
     public:
         MainWindow (juce::String name)
-            : DocumentWindow (name,
+            : DocumentWindow ("4PartHarmony",
                               juce::Desktop::getInstance().getDefaultLookAndFeel()
                                                           .findColour (juce::ResizableWindow::backgroundColourId),
                               DocumentWindow::minimiseButton|closeButton)
@@ -103,3 +103,5 @@ private:
 //==============================================================================
 // This macro generates the main() routine that launches the app.
 START_JUCE_APPLICATION (_4PartHarmonyApplication)
+
+
